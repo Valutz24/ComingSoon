@@ -12,17 +12,15 @@ body {
     text-align: center;
 }
 
-.responsive-image {
+.desktop-image {
     max-width: 100%;
     height: auto;
-    display: none;
-}
-
-.desktop-image {
     display: block;
 }
 
 .mobile-image {
+    max-width: 100%;
+    height: auto;
     display: none;
 }
 
