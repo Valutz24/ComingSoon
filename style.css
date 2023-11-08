@@ -20,12 +20,22 @@ body {
 .SoonImg {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* IE8-9 fix */
 }
+
+.mobile-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
 
 /* Media query pentru dispozitive mobile cu o lățime de ecran mai mică sau egală cu 767px */
 @media (max-width: 767px) {
     .SoonImg {
-        max-height: 100vh;
+       display: none;
+    }
+    .mobile-image {
+        display: block;
     }
 }
