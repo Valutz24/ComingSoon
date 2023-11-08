@@ -25,6 +25,7 @@ body {
 .mobile-image {
     max-width: 100%;
     height: auto;
+    display: none;
 }
 
 .hidden {
