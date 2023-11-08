@@ -23,7 +23,7 @@ body {
 
 /* Media query pentru dispozitive mobile cu o lățime de ecran mai mică sau egală cu 767px */
 @media (max-width: 767px) {
-    img {
+    .SoonImg {
         max-height: 100vh;
     }
 }
