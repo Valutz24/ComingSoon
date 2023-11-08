@@ -12,24 +12,28 @@ body {
     text-align: center;
 }
 
-.SoonImg {
+.responsive-image {
     max-width: 100%;
     height: auto;
+    display: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.desktop-image {
     display: block;
 }
 
 .mobile-image {
-    max-width: 100%;
-    height: auto;
     display: none;
 }
 
-.hidden {
-    display: none;
 
 /* Media query pentru dispozitive mobile cu o lățime de ecran mai mică sau egală cu 767px */
 @media (max-width: 767px) {
-    .SoonImg {
+    .desktop-image {
        display: none;
     }
     .mobile-image {
