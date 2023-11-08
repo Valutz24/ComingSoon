@@ -35,6 +35,7 @@ body {
        display: none;
     }
     .mobile-image {
+        margin: 0;
         display: block;
     }
 }
